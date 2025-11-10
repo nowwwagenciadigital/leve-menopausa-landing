@@ -4,7 +4,7 @@ const ManifestoSection = () => {
       <div className="container mx-auto max-w-4xl text-center">
         <div className="animate-slide-up">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-8 leading-relaxed">
-            🌷 A menopausa não é o fim da tua fase fértil.
+            A menopausa não é o fim da tua fase fértil.
           </h2>
           <p className="text-xl md:text-2xl text-primary font-semibold mb-6 leading-relaxed">
             É o renascimento da tua maturidade feminina — um convite pra cuidar do corpo de um jeito novo, mais sensível, mais consciente e mais verdadeiro.

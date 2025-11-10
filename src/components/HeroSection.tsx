@@ -19,15 +19,24 @@ const HeroSection = () => {
               size="lg" 
               className="w-full md:w-auto px-8 py-6 text-lg rounded-full shadow-2xl hover:scale-105 transform transition-all"
             >
-              🧡 QUERO COMEÇAR UMA NOVA VIDA
+              QUERO COMEÇAR UMA NOVA VIDA
             </Button>
           </div>
           <div className="flex justify-center animate-scale-in">
-            <img 
-              src={heroImage} 
-              alt="Nutri Carol Althoff - Especialista em menopausa" 
-              className="rounded-3xl shadow-2xl max-w-full h-auto object-cover"
-            />
+            <div className="relative w-full max-w-2xl">
+              <div className="aspect-video rounded-3xl overflow-hidden shadow-2xl">
+                <iframe
+                  width="100%"
+                  height="100%"
+                  src="https://www.youtube.com/embed/BKoEyIcddaU"
+                  title="Menopausa Leve - Vídeo de Apresentação"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  className="w-full h-full"
+                ></iframe>
+              </div>
+            </div>
           </div>
         </div>
       </div>

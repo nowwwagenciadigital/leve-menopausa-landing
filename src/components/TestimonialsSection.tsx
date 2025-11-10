@@ -6,19 +6,19 @@ const testimonials = [
   {
     name: "Maria Silva",
     age: "52 anos",
-    text: "Depois do programa, eu finalmente entendi meu corpo. Os calores diminuíram muito e eu voltei a dormir bem. Me sinto mais leve e feliz! 💕",
+    text: "Depois do programa, eu finalmente entendi meu corpo. Os calores diminuíram muito e eu voltei a dormir bem. Me sinto mais leve e feliz!",
     rating: 5
   },
   {
     name: "Ana Paula",
     age: "48 anos", 
-    text: "Achei que nunca mais ia me sentir bem comigo mesma. O Menopausa Leve me devolveu a autoestima e a energia que eu pensava ter perdido pra sempre! ✨",
+    text: "Achei que nunca mais ia me sentir bem comigo mesma. O Menopausa Leve me devolveu a autoestima e a energia que eu pensava ter perdido pra sempre!",
     rating: 5
   },
   {
     name: "Carla Mendes",
     age: "55 anos",
-    text: "Não é sobre dieta, é sobre cuidado. Aprendi a comer com prazer, respeitar meu corpo e viver essa fase com leveza. Gratidão! 🌸",
+    text: "Não é sobre dieta, é sobre cuidado. Aprendi a comer com prazer, respeitar meu corpo e viver essa fase com leveza. Gratidão!",
     rating: 5
   }
 ];
@@ -28,7 +28,7 @@ const TestimonialsSection = () => {
     <section className="bg-accent py-16 md:py-24 px-6 md:px-12">
       <div className="container mx-auto max-w-6xl">
         <h2 className="text-3xl md:text-4xl font-bold text-center text-foreground mb-4">
-          ✨ Mulheres que já estão vivendo a menopausa com leveza
+          Mulheres que já estão vivendo a menopausa com leveza
         </h2>
         <p className="text-center text-muted-foreground mb-12 text-lg">
           Veja o que elas dizem sobre essa transformação
@@ -62,7 +62,7 @@ const TestimonialsSection = () => {
             size="lg" 
             className="w-full md:w-auto px-8 py-6 text-lg rounded-full shadow-xl hover:scale-105 transform transition-all"
           >
-            🧡 QUERO COMEÇAR UMA NOVA VIDA!
+            QUERO COMEÇAR UMA NOVA VIDA!
           </Button>
         </div>
       </div>

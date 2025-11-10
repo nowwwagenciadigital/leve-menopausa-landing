@@ -39,7 +39,7 @@ const IncludedSection = () => {
     <section className="bg-card py-16 md:py-24 px-6 md:px-12">
       <div className="container mx-auto max-w-6xl">
         <h2 className="text-3xl md:text-4xl font-bold text-center text-foreground mb-4">
-          🎁 O que está incluso na tua jornada
+          O que está incluso na tua jornada
         </h2>
         <p className="text-center text-muted-foreground mb-12 text-lg">
           Tudo que você precisa para sua transformação

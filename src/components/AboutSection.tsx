@@ -30,7 +30,7 @@ const AboutSection = () => {
                 size="lg" 
                 className="w-full md:w-auto px-8 py-6 text-lg rounded-full shadow-xl hover:scale-105 transform transition-all"
               >
-                💗 QUERO CUIDAR DA SAÚDE AGORA!
+                QUERO CUIDAR DA SAÚDE AGORA!
               </Button>
             </div>
           </div>

@@ -57,7 +57,7 @@ const PricingSection = () => {
     <section className="bg-gradient-to-b from-muted to-card py-16 md:py-24 px-6 md:px-12">
       <div className="container mx-auto max-w-7xl">
         <h2 className="text-3xl md:text-4xl font-bold text-center text-foreground mb-4">
-          💰 Escolha o plano ideal pra você
+          Escolha o plano ideal pra você
         </h2>
         <p className="text-center text-muted-foreground mb-12 text-lg">
           Invista na sua saúde e bem-estar
@@ -104,7 +104,7 @@ const PricingSection = () => {
         </div>
         <div className="text-center bg-secondary/10 rounded-2xl p-6 border-2 border-secondary/30">
           <p className="text-lg font-semibold text-secondary">
-            🛡️ 7 dias de garantia incondicional
+            7 dias de garantia incondicional
           </p>
           <p className="text-muted-foreground mt-2">
             Se não for pra você, devolvemos 100% do seu investimento

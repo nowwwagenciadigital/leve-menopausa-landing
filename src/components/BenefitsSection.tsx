@@ -39,7 +39,7 @@ const BenefitsSection = () => {
     <section className="bg-accent py-16 md:py-24 px-6 md:px-12">
       <div className="container mx-auto max-w-6xl">
         <h2 className="text-3xl md:text-4xl font-bold text-center text-foreground mb-4">
-          ❤️ O que você vai conquistar
+          O que você vai conquistar
         </h2>
         <p className="text-center text-muted-foreground mb-12 text-lg">
           Transformações reais para uma nova fase da vida
