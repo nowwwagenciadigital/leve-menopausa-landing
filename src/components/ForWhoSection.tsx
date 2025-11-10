@@ -3,10 +3,6 @@ import { Button } from "@/components/ui/button";
 const ForWhoSection = () => {
   return (
     <section className="bg-muted py-16 md:py-24 px-6 md:px-12 relative overflow-hidden">
-      <div className="absolute inset-0 opacity-20">
-        <div className="absolute top-10 left-10 w-32 h-32 bg-primary/30 rounded-full blur-3xl"></div>
-        <div className="absolute bottom-10 right-10 w-40 h-40 bg-secondary/30 rounded-full blur-3xl"></div>
-      </div>
       <div className="container mx-auto max-w-4xl text-center relative z-10">
         <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-8">
           Pra quem é o Menopausa Leve

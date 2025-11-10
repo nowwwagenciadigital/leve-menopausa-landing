@@ -4,7 +4,7 @@ import heroImage from "@/assets/hero-nutritionist.jpg";
 const HeroSection = () => {
   return (
     <section className="relative bg-muted py-16 md:py-24 px-6 md:px-12 overflow-hidden">
-      <div className="absolute inset-0 opacity-30 bg-gradient-to-br from-primary/20 to-secondary/20"></div>
+      <div className="absolute inset-0 opacity-10 bg-gradient-to-br from-primary/10 to-secondary/10"></div>
       <div className="container mx-auto relative z-10">
         <div className="grid md:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
           <div className="text-center md:text-left animate-fade-in">
