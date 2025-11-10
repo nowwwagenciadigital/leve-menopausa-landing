@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 const ForWhoSection = () => {
   return (
     <section className="bg-muted py-16 md:py-24 px-6 md:px-12 relative overflow-hidden">
-      <div className="container mx-auto max-w-4xl text-center relative z-10">
+      <div className="container mx-auto max-w-4xl text-center">
         <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-8">
           Pra quem é o Menopausa Leve
         </h2>
