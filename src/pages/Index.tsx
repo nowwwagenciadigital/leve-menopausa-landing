@@ -1,12 +1,34 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import StickyHeader from "@/components/StickyHeader";
+import HeroSection from "@/components/HeroSection";
+import ManifestoSection from "@/components/ManifestoSection";
+import BenefitsSection from "@/components/BenefitsSection";
+import ForWhoSection from "@/components/ForWhoSection";
+import IncludedSection from "@/components/IncludedSection";
+import TestimonialsSection from "@/components/TestimonialsSection";
+import PricingSection from "@/components/PricingSection";
+import AboutSection from "@/components/AboutSection";
+import FinalCTASection from "@/components/FinalCTASection";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen">
+      <StickyHeader />
+      <main>
+        <HeroSection />
+        <ManifestoSection />
+        <BenefitsSection />
+        <ForWhoSection />
+        <IncludedSection />
+        <TestimonialsSection />
+        <PricingSection />
+        <AboutSection />
+        <FinalCTASection />
+      </main>
+      <footer className="bg-foreground text-white py-8 text-center">
+        <p className="text-sm">
+          © 2025 Menopausa Leve - Nutri Carol Althoff | Todos os direitos reservados
+        </p>
+      </footer>
     </div>
   );
 };
