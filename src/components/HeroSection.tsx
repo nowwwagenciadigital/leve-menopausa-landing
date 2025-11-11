@@ -1,9 +1,17 @@
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-nutritionist.jpg";
+import pinkBg from "@/assets/pink-background.png";
 
 const HeroSection = () => {
   return (
-    <section className="relative bg-muted py-16 md:py-24 px-6 md:px-12 overflow-hidden">
+    <section 
+      className="relative py-16 md:py-24 px-6 md:px-12 overflow-hidden"
+      style={{ 
+        backgroundImage: `url(${pinkBg})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center'
+      }}
+    >
       <div className="container mx-auto relative z-10">
         <div className="grid md:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
           <div className="text-center md:text-left animate-fade-in">

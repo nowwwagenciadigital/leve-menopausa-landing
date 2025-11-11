@@ -1,8 +1,16 @@
 import { Button } from "@/components/ui/button";
+import pinkBg from "@/assets/pink-background.png";
 
 const ForWhoSection = () => {
   return (
-    <section className="bg-muted py-16 md:py-24 px-6 md:px-12 relative overflow-hidden">
+    <section 
+      className="py-16 md:py-24 px-6 md:px-12 relative overflow-hidden"
+      style={{ 
+        backgroundImage: `url(${pinkBg})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center'
+      }}
+    >
       <div className="container mx-auto max-w-4xl text-center">
         <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-8">
           Pra quem é o Menopausa Leve
