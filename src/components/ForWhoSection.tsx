@@ -12,7 +12,7 @@ const ForWhoSection = () => {
       }}
     >
       <div className="container mx-auto max-w-4xl text-center">
-        <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-8">
+        <h2 className="text-3xl md:text-4xl font-bold text-white mb-8">
           Pra quem é o Menopausa Leve
         </h2>
         <div className="bg-card/80 backdrop-blur rounded-3xl p-8 md:p-12 shadow-xl border border-primary/20">

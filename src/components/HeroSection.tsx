@@ -15,10 +15,10 @@ const HeroSection = () => {
       <div className="container mx-auto relative z-10">
         <div className="grid md:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
           <div className="text-center md:text-left animate-fade-in">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6 leading-tight">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
               Menopausa Leve — Uma nova forma de viver o corpo feminino
             </h1>
-            <p className="text-lg md:text-xl text-muted-foreground mb-8 leading-relaxed">
+            <p className="text-lg md:text-xl text-white mb-8 leading-relaxed">
               Um programa completo de reconexão com o corpo e com a alimentação, feito para mulheres que querem atravessar a menopausa com leveza, prazer e vitalidade — sem dietas, sem culpa e sem medo do espelho.
             </p>
             <Button 
