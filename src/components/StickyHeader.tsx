@@ -36,8 +36,9 @@ const StickyHeader = () => {
           variant="cta" 
           size="lg"
           className="rounded-full shadow-lg text-sm md:text-base px-6 md:px-8"
+          asChild
         >
-          COMEÇAR AGORA
+          <a href="#pricing">COMEÇAR AGORA</a>
         </Button>
       </div>
     </header>

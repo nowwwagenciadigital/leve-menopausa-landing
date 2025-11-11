@@ -12,7 +12,8 @@ const plans = [
       "Exercícios práticos diários",
       "Material de apoio exclusivo"
     ],
-    highlight: false
+    highlight: false,
+    link: "https://pay.kiwify.com.br/9TRDNpm"
   },
   {
     name: "Menopausa Magnética",
@@ -23,7 +24,8 @@ const plans = [
       "Plano alimentar personalizado",
       "Suporte via WhatsApp"
     ],
-    highlight: false
+    highlight: false,
+    link: "https://pay.kiwify.com.br/x6Edytz"
   },
   {
     name: "Menopausa Leve",
@@ -36,7 +38,8 @@ const plans = [
       "Ebook de receitas",
       "Acesso vitalício"
     ],
-    highlight: true
+    highlight: true,
+    link: "https://pay.kiwify.com.br/7bHMBpX"
   },
   {
     name: "E-book Receitas Práticas",
@@ -48,13 +51,14 @@ const plans = [
       "Lista de compras",
       "Acesso imediato"
     ],
-    highlight: false
+    highlight: false,
+    link: "https://pay.kiwify.com.br/Dzj4zrc"
   }
 ];
 
 const PricingSection = () => {
   return (
-    <section className="bg-gradient-to-b from-muted to-card py-16 md:py-24 px-6 md:px-12">
+    <section id="pricing" className="bg-gradient-to-b from-muted to-card py-16 md:py-24 px-6 md:px-12">
       <div className="container mx-auto max-w-7xl">
         <h2 className="text-3xl md:text-4xl font-bold text-center text-foreground mb-4">
           Escolha o plano ideal pra você
@@ -95,8 +99,11 @@ const PricingSection = () => {
                   variant={plan.highlight ? "cta" : "secondary"}
                   className="w-full rounded-full font-semibold"
                   size="lg"
+                  asChild
                 >
-                  Escolher Plano
+                  <a href={plan.link} target="_blank" rel="noopener noreferrer">
+                    Escolher Plano
+                  </a>
                 </Button>
               </CardContent>
             </Card>

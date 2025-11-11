@@ -19,8 +19,9 @@ const FinalCTASection = () => {
           variant="secondary"
           size="lg"
           className="bg-white text-primary hover:bg-white/90 w-full md:w-auto px-12 py-8 text-xl rounded-full shadow-2xl hover:scale-105 transform transition-all font-bold mb-12"
+          asChild
         >
-          QUERO COMEÇAR UMA NOVA VIDA AGORA
+          <a href="#pricing">QUERO COMEÇAR UMA NOVA VIDA AGORA</a>
         </Button>
         <div className="grid md:grid-cols-3 gap-6 text-center">
           <div className="flex flex-col items-center gap-3">

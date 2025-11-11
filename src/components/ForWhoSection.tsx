@@ -26,8 +26,9 @@ const ForWhoSection = () => {
             variant="secondary" 
             size="lg" 
             className="w-full md:w-auto px-8 py-6 text-lg rounded-full shadow-lg hover:scale-105 transform transition-all"
+            asChild
           >
-            QUERO COMEÇAR UMA NOVA VIDA
+            <a href="#pricing">QUERO COMEÇAR UMA NOVA VIDA</a>
           </Button>
         </div>
       </div>

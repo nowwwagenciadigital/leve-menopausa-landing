@@ -29,8 +29,9 @@ const AboutSection = () => {
                 variant="cta" 
                 size="lg" 
                 className="w-full md:w-auto px-8 py-6 text-lg rounded-full shadow-xl hover:scale-105 transform transition-all"
+                asChild
               >
-                QUERO CUIDAR DA SAÚDE AGORA!
+                <a href="#pricing">QUERO CUIDAR DA SAÚDE AGORA!</a>
               </Button>
             </div>
           </div>
