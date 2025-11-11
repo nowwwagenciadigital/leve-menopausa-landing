@@ -18,7 +18,7 @@ const FinalCTASection = () => {
         <Button 
           variant="secondary"
           size="lg"
-          className="bg-white text-primary hover:bg-white/90 w-full md:w-auto px-12 py-8 text-xl rounded-full shadow-2xl hover:scale-105 transform transition-all font-bold mb-12"
+          className="bg-white text-primary hover:bg-white/90 w-full md:w-auto px-6 md:px-12 py-6 md:py-8 text-base md:text-xl rounded-full shadow-2xl hover:scale-105 transform transition-all font-bold mb-12 whitespace-normal leading-tight"
           asChild
         >
           <a href="#pricing">QUERO COMEÇAR UMA NOVA VIDA AGORA</a>
