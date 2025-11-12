@@ -28,7 +28,7 @@ const plans = [
     link: "https://pay.kiwify.com.br/x6Edytz"
   },
   {
-    name: "Menopausa Leve",
+    name: "Programa Menopausa Leve",
     price: "R$ 799",
     description: "Curso online com 15 módulos e comunidade",
     features: [
