@@ -4,16 +4,18 @@ import { Check } from "lucide-react";
 
 const plans = [
   {
-    name: "Renascer na Menopausa",
-    price: "R$ 297",
-    description: "Jornada individual de autotransformação",
+    name: "Programa Menopausa Leve",
+    price: "R$ 799",
+    description: "Curso online com 15 módulos e comunidade",
     features: [
-      "Programa completo de 8 semanas",
-      "Exercícios práticos diários",
-      "Material de apoio exclusivo"
+      "15 módulos gravados completos",
+      "Comunidade exclusiva no WhatsApp",
+      "Aulas bônus e relâmpago",
+      "Ebook de receitas",
+      "Acesso vitalício"
     ],
-    highlight: false,
-    link: "https://pay.kiwify.com.br/9TRDNpm"
+    highlight: true,
+    link: "https://pay.kiwify.com.br/7bHMBpX"
   },
   {
     name: "Menopausa Magnética",
@@ -28,18 +30,16 @@ const plans = [
     link: "https://pay.kiwify.com.br/x6Edytz"
   },
   {
-    name: "Programa Menopausa Leve",
-    price: "R$ 799",
-    description: "Curso online com 15 módulos e comunidade",
+    name: "Renascer na Menopausa",
+    price: "R$ 297",
+    description: "Jornada individual de autotransformação",
     features: [
-      "15 módulos gravados completos",
-      "Comunidade exclusiva no WhatsApp",
-      "Aulas bônus e relâmpago",
-      "Ebook de receitas",
-      "Acesso vitalício"
+      "Programa completo de 8 semanas",
+      "Exercícios práticos diários",
+      "Material de apoio exclusivo"
     ],
-    highlight: true,
-    link: "https://pay.kiwify.com.br/7bHMBpX"
+    highlight: false,
+    link: "https://pay.kiwify.com.br/9TRDNpm"
   },
   {
     name: "E-book Receitas Práticas",
