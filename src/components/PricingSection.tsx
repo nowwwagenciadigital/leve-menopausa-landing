@@ -72,16 +72,16 @@ const PricingSection = () => {
               key={index}
               className={`relative ${
                 plan.highlight 
-                  ? 'border-4 border-cta shadow-2xl scale-105 bg-gradient-to-br from-secondary/10 to-primary/10' 
+                  ? 'border-4 border-cta shadow-2xl scale-105 bg-gradient-to-br from-secondary/10 to-primary/10 mt-6' 
                   : 'border-2 border-primary/20 hover:shadow-lg'
               } transition-all hover:-translate-y-1 duration-300`}
             >
               {plan.highlight && (
-                <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-cta text-white px-6 py-1 rounded-full text-sm font-bold shadow-lg">
+                <div className="absolute -top-5 left-1/2 transform -translate-x-1/2 bg-cta text-white px-6 py-1 rounded-full text-sm font-bold shadow-lg">
                   MAIS COMPLETO
                 </div>
               )}
-              <CardHeader className="text-center pb-4">
+              <CardHeader className={`text-center pb-4 ${plan.highlight ? 'pt-8' : ''}`}>
                 <h3 className="font-bold text-xl mb-2 text-foreground">{plan.name}</h3>
                 <div className="text-4xl font-bold text-primary mb-2">{plan.price}</div>
                 <p className="text-sm text-muted-foreground">{plan.description}</p>
