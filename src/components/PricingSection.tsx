@@ -5,16 +5,17 @@ import { Check } from "lucide-react";
 const plans = [
   {
     name: "Programa Menopausa Leve",
-    price: "R$ 748",
-    description: "Curso online com 15 módulos e comunidade",
+    price: "R$ 197",
+    description: "Curso completo com 15 módulos e comunidade",
     features: [
-      "15 módulos gravados completos",
+      "15 módulos gravados",
       "Comunidade exclusiva no WhatsApp",
-      "Aulas bônus e relâmpago",
-      "Ebook de receitas",
+      "Aulas bônus e conteúdos extras",
+      "E-book de receitas",
+      "4 Planos Alimentares Acessíveis",
       "Acesso vitalício"
     ],
-    highlight: true,
+    highlight: false,
     link: "https://pay.kiwify.com.br/9TRDNpm"
   },
   {
@@ -22,33 +23,38 @@ const plans = [
     price: "R$ 497",
     description: "Jornada individual de autotransformação",
     features: [
-      "4 encontros ao vivo individuais",
+      "4 encontros individuais ao vivo",
       "Plano alimentar personalizado",
-      "Suporte via WhatsApp"
+      "Suporte direto pelo WhatsApp"
     ],
     highlight: false,
     link: "https://pay.kiwify.com.br/x6Edytz"
   },
   {
     name: "Renascer na Menopausa",
-    price: "R$ 197",
-    description: "4 encontros personalizados ao vivo",
+    price: "R$ 748",
+    description: "6 encontros individuais ao vivo",
     features: [
-      "Programa completo de 8 semanas",
-      "Exercícios práticos diários",
-      "Material de apoio exclusivo"
+      "Programa completo de 6 semanas",
+      "Atendimento aprofundado baseado em Self Coacching e Nutrição",
+      "Plano alimentar personalizado",
+      "Suporte direto pelo WhatsApp",
+      "Ferramentas práticas diárias",
+      "Material exclusivo de apoio"
     ],
-    highlight: false,
+    highlight: true,
     link: "https://pay.kiwify.com.br/7bHMBpX"
   },
   {
     name: "E-book Receitas Práticas",
-    price: "R$ 79",
-    description: "Alimentação leve e prazerosa todos os dias",
+    price: "R$ 38",
+    description: "Alimentação leve e saborosa no dia a dia",
     features: [
-      "50+ receitas práticas",
-      "Guia de substituições",
-      "Lista de compras",
+      "+ de 20 receitas práticas para:",
+      "Aumentar sua energia",
+      "Reduzir os sintomas da menopausa",
+      "Cuidar da saúde hormonal e óssea",
+      "Manter prazer à mesa, sem radicalismos",
       "Acesso imediato"
     ],
     highlight: false,
