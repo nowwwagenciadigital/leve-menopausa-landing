@@ -20,7 +20,7 @@ const plans = [
   {
     name: "Menopausa Magnética",
     price: "R$ 497",
-    description: "4 encontros personalizados ao vivo",
+    description: "Jornada individual de autotransformação",
     features: [
       "4 encontros ao vivo individuais",
       "Plano alimentar personalizado",
@@ -32,7 +32,7 @@ const plans = [
   {
     name: "Renascer na Menopausa",
     price: "R$ 197",
-    description: "Jornada individual de autotransformação",
+    description: "4 encontros personalizados ao vivo",
     features: [
       "Programa completo de 8 semanas",
       "Exercícios práticos diários",
