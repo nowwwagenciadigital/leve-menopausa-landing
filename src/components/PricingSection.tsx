@@ -5,7 +5,7 @@ import { Check } from "lucide-react";
 const plans = [
   {
     name: "Programa Menopausa Leve",
-    price: "R$ 799",
+    price: "R$ 748",
     description: "Curso online com 15 módulos e comunidade",
     features: [
       "15 módulos gravados completos",
@@ -15,11 +15,11 @@ const plans = [
       "Acesso vitalício"
     ],
     highlight: true,
-    link: "https://pay.kiwify.com.br/7bHMBpX"
+    link: "https://pay.kiwify.com.br/9TRDNpm"
   },
   {
     name: "Menopausa Magnética",
-    price: "R$ 399",
+    price: "R$ 497",
     description: "4 encontros personalizados ao vivo",
     features: [
       "4 encontros ao vivo individuais",
@@ -31,7 +31,7 @@ const plans = [
   },
   {
     name: "Renascer na Menopausa",
-    price: "R$ 297",
+    price: "R$ 197",
     description: "Jornada individual de autotransformação",
     features: [
       "Programa completo de 8 semanas",
@@ -39,7 +39,7 @@ const plans = [
       "Material de apoio exclusivo"
     ],
     highlight: false,
-    link: "https://pay.kiwify.com.br/9TRDNpm"
+    link: "https://pay.kiwify.com.br/7bHMBpX"
   },
   {
     name: "E-book Receitas Práticas",
