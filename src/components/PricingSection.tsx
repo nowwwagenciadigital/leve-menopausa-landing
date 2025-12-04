@@ -5,7 +5,7 @@ import { Check } from "lucide-react";
 const plans = [
   {
     name: "Programa Menopausa Leve",
-    price: "R$ 197",
+    price: "R$ 256",
     description: "Curso completo com 15 módulos e comunidade",
     features: [
       "15 módulos gravados",
